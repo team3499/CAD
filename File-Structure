@@ -1,30 +1,15 @@
 The structure of the files and directories should be as follows:
 
-Top Level:
-  Designs/        For parts (and assembalys) that were made for a recurring purpose
-  Robot/          For parts (and assembalys) that were made for that robot, specifically.
-  
-Robot/
-  YEAR/           This directory should be the year these parts were made/used. If each year becomes too bulky to hold onto
-                  in the master branch, branches can be made for each robot.
+/                           Repo Root
 
-YEAR/
-  robot.txt       There should be a 'breif' description about the years robot, and how it works.
+Robot/                      For parts (and assemblies) that were made for that robot, specifically.
+    YEAR/                   This directory should be the year these parts were made/used. If each year becomes too bulky to hold onto in the master branch, branches can be made for each robot.
+        robot.txt           There should be a 'breif' description about the years robot, and how it works.
 
-
-
-Designs/
-  PART            There should be a directory for each part made. If this list becomes to long,
-                  then there could be categories for sorting. This is not recommended. Each filename
-                  should provide some level of categorical sorting (via alphabetical order).
-
-PART/
-  vX/             Version X of the part.
-  description.txt
-                  There should be a 'breif' description about the part made, and its purpose.
-                  Also a description of the version differences is good.
-
-PART/vX/
-  alone.png       There could be a picture of the part, not attached to anything.
-  in-use.png      There could be a picture of the part in use.
-  rendition.png   There could be a cad-rendered image of the part.
+Designs/                    For parts (and assemblies) that were made for a recurring purpose
+    PART/                   There should be a directory for each part made. If this list becomes to long, then there could be categories for sorting. This is not recommended. Each filename should provide some level of categorical sorting (via alphabetical order).
+        description.txt     There should be a 'breif' description about the part made, and its purpose.
+        vX/                 Version X of the part. Also a description of the version differences is good.
+            alone.png       There could be a picture of the part, not attached to anything.
+            in-use.png      There could be a picture of the part in use.
+            rendition.png   There could be a cad-rendered image of the part.
