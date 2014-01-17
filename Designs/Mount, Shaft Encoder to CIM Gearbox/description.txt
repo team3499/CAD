@@ -1,5 +1,6 @@
 A mount for attaching the am5 AS145B FIRST 1.0 magnetic shaft encoder to the cim gearbox.
 
-The first version had problems, a few holes too small, a few improvements to make.
-Version 2 was lost.
-Version three was a remake of version 2.
+Version 1: had problems, a few holes too small, a few improvements to make.
+Version 2: was lost.
+Version 3: is a remake of version 2. (final)
+Version 3-alternate: made by a different author
